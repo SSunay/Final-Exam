@@ -1,0 +1,51 @@
+.navbar{
+    background-color: black;
+    .main{
+        max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+        .logo{
+            // background-color: black;
+            padding: 30px 15px 30px 15px ;
+
+
+        }
+        .links{
+            padding: 20px 150px 0px 150px ;
+            background-color: white;
+            border-top: 3px solid #FF6600;
+
+            ul{
+            display: flex;
+          
+
+                li{
+                    list-style: none;
+                    padding: 0px 15px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        
+                    }
+                }
+            }
+            .icon{
+                i{
+                    color: white;
+                    opacity: 0.6;
+                }
+            }
+        }
+        .phone{
+            padding: 30px 15px 15px 15px ;
+            background-color: #FF6600;
+            color: white;
+            position: relative;
+            right: 150px;
+            
+
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.missionPart{
+  
+    .main{
+        width: 1280px;
+        margin: 0 auto;
+        // padding: 0px ;
+        width: 565px;
+        height: 330px;
+        // display: flex;
+        text-align: center;
+        justify-content: center;
+       padding: 100px 600px 0px 0px;
+        .part1{
+        display: flex;
+        max-width: 1280px;
+ 
+            .part1Txt{
+                h4{
+                    width: 500px;
+                    color: #FF6600;
+                    margin: 0;
+                    padding: 100px 0px 0px 0px;
+                }
+                button{
+                    padding: 10px 20px;
+                    border: 1px solid #FF6600;
+                    background-color: #FF6600;
+                    border-radius: 10px;
+                    color: white;
+                    margin: 15px;
+                    &:hover{
+                        background-color: #b34700;
+                    }
+                }
+            }
+            .part1Img{
+                width: 670px;
+                height: 450px;
+                img{
+                    width: 670px;
+                    height: 450px;
+                    padding-left: 160px;
+                }
+            }
+        }
+        .part2{
+        display: flex;
+        max-width: 1280px;
+      
+            .part2Txt{
+                width: 664px;
+                height: 650px;
+                background-color: black;
+                color: white;
+                h1{
+                    width: 700px;
+                    padding: 10px 0px 10px 0px;
+                font-size: 35px;
+                font-weight: 300;
+               
+                }
+                .div1{
+                    // width: 554px;
+                    // height: 635px;
+                    .txt{
+                        border: 1px solid white;
+                        margin: 10px 15px;
+                        transition: 1s;
+                        &:hover{
+                            background-color: #522100;
+                        }
+                    }
+                    h4{
+                        padding: 30px 0px 30px 10px;
+                    }
+                }
+
+            }
+            .part2Img{
+                width: 664px;
+                height: 750px;
+                img{
+                    width: 664px;
+                height: 650px;
+                }
+            }
+        }
+    }
+}

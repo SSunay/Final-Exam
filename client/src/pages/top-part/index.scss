@@ -1,0 +1,71 @@
+.topPart{
+    background-image: url(src/images/tir.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    .main{
+        display: flex;
+        justify-content: center;
+        color: white;
+        column-gap: 500px;
+        position: relative;
+        top: 250px;
+        .txtPart{
+            h5{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 65px;
+            }
+          
+                button{
+                    padding: 20px 30px;
+                    border: none;
+                    background-color: #FF6600;
+                    color: white;
+                    &:hover{
+                        background-color: #ff8738;
+                    }
+                }
+            
+        }
+        .inputPart{
+            border: 1px solid white;
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+            .back{
+                text-align: center;
+                select{
+                    font-size: 20px;
+                    width: 500px;
+                    padding: 15px 15px;
+                    option{
+                        width: 500px;
+                    padding: 15px 15px;
+                    background-color: #ff6600;
+                    }
+                }
+                input{
+                    width: 470px;
+                    padding: 15px 15px;
+                }
+                label{
+                    color: black;
+                }
+                h1{
+                    color: black;
+                    span{
+                        color: #ff6600;
+                    }
+                }
+                h5{
+                    color: black;
+                }
+
+            }
+        }
+    }
+}

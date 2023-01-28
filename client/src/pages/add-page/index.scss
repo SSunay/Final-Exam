@@ -1,0 +1,39 @@
+.add{
+    background-image: url(src/images/tir.webp);
+    background-color: grey;
+background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    padding: 100px 0px;
+    .err{
+        color: crimson;
+        font-size: 18px;
+    }
+    h1{
+        color:#FF6600;
+        margin: 100px 0px;
+        letter-spacing: 3px;
+    }
+    input{
+        width: 600px;
+        padding: 10px 20px;
+        border:1px solid #FF6600;
+    }
+    button{
+        margin-top: 50px;
+        padding: 10px 30px;
+        border: none;
+        background-color: #FF6600;
+        color: white;
+        transition: 0.5s;
+        &:hover{
+            background-color: #ff8738;
+        }
+    }
+
+
+}
